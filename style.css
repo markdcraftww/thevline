@@ -1,0 +1,273 @@
+/*  
+Theme Name: V-Line
+Theme URI: 
+Description: Theme for V-Line Booking System
+Version: 1.0
+Author: 
+Author URI: 
+Tags: 
+License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+License URI: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+*/
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	outline: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #e7e7e7 url(img/vLine_background.png) center top;
+	background-repeat: no-repeat;
+	font-family: "Gotham", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 1.4;
+	color: #6b6361;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+}
+body.page {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header {
+	background: #fff;
+}
+.header .col-group .col-content {
+    padding: 12px 0;
+}
+.logo.col-group .col-content {
+	text-align: center;
+	padding: 20px 0;
+}
+img {
+	border: 0;
+}
+#birs_appointment_form {
+	overflow: hidden;
+	padding: 0 0 0 40px !important;
+}
+#birs_appointment_form .ui-datepicker {
+    background: #f7f7f6;
+}
+#birs_appointment_form ul {
+    float: left;
+    width: 50%;
+}
+li input {
+	line-height: 26px;
+	font-size: 14px;
+	padding: 6px 12px;
+	font-weight: 100;
+	font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #6b6361;
+	text-transform: uppercase;
+	border: 0;
+	background: #f7f7f7;
+}
+.select2-container .select2-choice {
+	padding: 6px 12px !important;
+	height: 30px !important;
+	line-height: 26px !important;
+}
+.select2-container .select2-choice span {
+	line-height: 1.2;
+}
+.page-template-default .col-content p {
+	width: 80%;
+	text-align: center;
+	margin: 20px auto;
+}
+small {
+	line-height: 1 !important;
+}
+.page-template-default .col-content h2 {
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 28px;
+	font-weight: 300;
+}
+.select2-container, .select2-result-label {
+	text-transform: uppercase;
+}
+.select2-container .select2-choice {
+    border-radius: 0 !important;
+    border: 0 !important;
+    background: #f7f7f7 !important;
+}
+.select2-container .select2-choice .select2-arrow {
+    border-radius: 0 !important;
+    background: #EFEFEF !important;
+}
+.select2-drop {
+    border-radius: 0 !important;
+    border: 0 !important;
+    background: #f7f7f7 !important;
+}
+#birs_appointment_form .ui-datepicker {
+    border-radius: 0 !important;
+}
+.birs_footer {
+    margin: 0;
+    padding: 6px 1% 9px 1% !important;
+}
+.button {
+	background: #00bddb;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	border: 0;
+	margin: 0 auto;
+	display: block;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	max-width: 31.7em;
+	width: 100%;
+}
+label {
+	font-weight: 100 !important;
+	text-indent: 5px;
+	text-transform: uppercase;
+	color: #938683;
+	font-size: 14px;
+}
+.select2-results .select2-highlighted {
+	background: #00bddb !important;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+#birs_appointment_form .ui-datepicker th {
+    font-weight: 400 !important;
+    text-align: center;
+}
+.birs_appointment_service, .birs_appointment_staff, .birs_client_section {
+	display: none !important;
+}
+#birs_appointment_timeoptions {
+	display: block;
+}
+#birs_appointment_timeoptions {
+    border-radius: 0 !important;
+}
+#birs_appointment_timeoptions div {
+    background: #f7f7f6;
+    border-radius: 0 !important;
+	border: 1px solid #AAAAAA !important;
+}
+#birs_appointment_form .ui-datepicker {
+    border: 1px solid #f7f7f7 !important;
+}
+.ui-datepicker-title {
+	background: #efefef;
+	border: 1px solid #f7f7f6;
+	color: #8c7f7b;
+}
+.ui-datepicker-month {
+	text-transform: uppercase;
+}
+#birs_appointment_timeoptions span a {
+	color: #6b6361;
+	text-decoration: none;
+	padding: 2px;
+	margin: 0 0 3px 0;
+	display: inline-block;
+	width: 80% !important;
+	text-align: center !important;
+    border-radius: 0 !important;
+}
+#birs_appointment_timeoptions span a:hover, #birs_appointment_timeoptions span a.selected {
+	color: #ffffff;
+	background: #00bddb;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.5);
+}
+#birs_appointment_form .ui-datepicker td span, .ui-datepicker td a {
+	color: #6b6361;
+	text-decoration: none;
+}
+#birs_appointment_form .ui-datepicker td span, .ui-datepicker td.ui-state-disabled a {
+	color: #ccc;
+	text-decoration: none;
+}
+#birs_booking_success {
+	width: 60%;
+	margin: 0 auto;
+}
+#birs_booking_success div {
+	background: #ccc8c7 !important;
+	padding: 20px 10px 10px 10px;
+}
+#birs_booking_success ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#birs_booking_success li {
+	overflow: hidden;
+	margin: 0 0 10px;
+}
+#birs_booking_success h4.mess {
+	text-align: center;
+	color: #00bddb;
+	font-size: 16px;
+}
+#birs_booking_success li h4 {
+    float: left !important;
+    margin: 0 !important;
+    padding: 10px 5px !important;
+    width: 100px !important;
+}
+#birs_booking_success li p {
+    background: #FFFFFF !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 10px 5px !important;
+    text-align: left !important;
+    width: 78% !important;
+}
+span.ui-state-default {
+	border: 2px solid #F7F7F6;
+}
+a.ui-state-default {
+	border: 2px solid #00bddb;
+    border-radius: 0 !important;
+}
+#birs_appointment_form .ui-datepicker table {
+    width: 90% !important;
+    margin: 0 auto 4px auto !important;
+}
+#birs_appointment_form .ui-datepicker table td {
+    border: 2px solid #f7f7f6 !important;
+}
+#birs_appointment_form .ui-datepicker td {
+	border-width: 2px !important;
+}
+#birs_appointment_datepicker .ui-state-active {
+    background-color: #00bddb !important;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0,0,0, 0.5);
+}
+.submit {
+	width: 95% !important;
+}
+.ui-datepicker-prev .ui-datepicker-prev-hover {
+    left: 2px !important;
+    top: 1px !important;
+}
+.ui-datepicker-next .ui-datepicker-next-hover {
+    right: 2px !important;
+    top: 1px !important;
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    top: 1px !important;
+}
+#birs_appointment_timeoptions div {
+    border: 0 !important;
+    min-height: 5em;
+    padding: 0.3em 0;
+}
+#birs_booking_success h3 {
+	display: none !important;
+}
